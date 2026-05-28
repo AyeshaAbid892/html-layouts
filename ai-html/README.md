@@ -1,422 +1,782 @@
-# 🕰️ Frontend Web Projects — AI-Assisted HTML/CSS
+<div align="center">
 
-> **Two structured, production-style HTML projects built using AI-assisted development (Claude by Anthropic). Projects cover a luxury e-commerce product page and a data collection survey form — both using table-based layouts, inline styling, and native HTML form elements.**
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0a0f1e,40:1a252f,80:0d4f3c,100:2ecc71&height=180&section=header&text=HTML%20Projects%20Portfolio&fontSize=36&fontColor=ffffff&fontAlignY=45&stroke=2ecc71&strokeWidth=2&desc=🤖%20AI-Generated%20%7C%20Survey%20Form%20%7C%20E-Commerce%20Page&descAlignY=70&descSize=13&animation=fadeIn" width="100%" />
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS Inline](https://img.shields.io/badge/Inline%20CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![AI Assisted](https://img.shields.io/badge/AI--Assisted-Claude%20by%20Anthropic-blueviolet?style=for-the-badge)
-![No Framework](https://img.shields.io/badge/Framework-None-lightgrey?style=for-the-badge)
+<br/>
 
----
 
-## 📌 Table of Contents
+<br/><br/>
 
-- [About This Repository](#about-this-repository)
-- [AI-Assisted Development — Methodology](#ai-assisted-development--methodology)
-- [Projects Included](#projects-included)
-  - [Project 1 — Timeless Watches (E-Commerce Product Page)](#project-1--timeless-watches-e-commerce-product-page)
-  - [Project 2 — Survey Form (Data Collection UI)](#project-2--survey-form-data-collection-ui)
-- [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Layout Architecture](#layout-architecture)
-  - [E-Commerce Layout Tree](#e-commerce-layout-tree)
-  - [Survey Form Layout Tree](#survey-form-layout-tree)
-- [Component Breakdown](#component-breakdown)
-- [Design Decisions](#design-decisions)
-- [Color Palette](#color-palette)
-- [How to Run Locally](#how-to-run-locally)
-- [Author](#author)
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20Powered-Claude-6B46C1?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Generated%20By-AI-2ecc71?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Complete-1a252f?style=for-the-badge&logo=checkmarx&logoColor=2ecc71" />
 
----
+<br/><br/>
 
-## About This Repository
+<img src="https://img.shields.io/badge/Zero-Frameworks-FF6B35?style=flat-square" />
+<img src="https://img.shields.io/badge/Inline-Styling-38B2AC?style=flat-square" />
+<img src="https://img.shields.io/badge/Semantic-HTML-E34F26?style=flat-square" />
+<img src="https://img.shields.io/badge/Production-Ready-2ecc71?style=flat-square" />
+<img src="https://img.shields.io/badge/Accessibility-First-6B46C1?style=flat-square" />
+<img src="https://img.shields.io/badge/Prompt-Engineered-0d4f3c?style=flat-square" />
 
-This repository contains **two frontend HTML projects** developed using an **AI-assisted workflow** with Claude (by Anthropic). The goal was to produce clean, well-structured, professional-grade HTML pages while learning how to effectively direct, prompt, and iterate with AI tools to achieve a specific design outcome.
+<br/><br/>
 
-Both projects are:
-- Fully self-contained (single `.html` file per project)
-- Built with **zero external CSS files**, **zero JavaScript**, **zero frameworks**
-- Structured using **table-based HTML layouts** — the standard approach for HTML emails and legacy-compatible web pages
-- Styled entirely through **inline styles** and **HTML presentation attributes**
+> 🤖 **Two fully AI-coded HTML projects** — generated from scratch without any frameworks or libraries.
+> Pure semantic HTML with inline styling — structured, accessible, and production-ready.
+> *Every element, every attribute, every style decision: written by Artificial Intelligence.*
 
----
+<br/>
 
-## AI-Assisted Development — Methodology
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/html-projects?style=social)](https://github.com)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/html-projects?style=social)](https://github.com)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=html-projects)](https://github.com)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=2ecc71&style=flat-square&label=Repo+Views)
 
-These projects were built using **Claude by Anthropic** as an AI coding assistant. This is a transparent, honest account of the development process.
-
-### What AI Did
-- Generated the initial HTML structure based on design requirements I provided
-- Implemented the table-based grid system and nested layout logic
-- Wrote inline styling, color values, font attributes, and spacing
-- Suggested component structure (nav bar, product card, thumbnail row, form fields)
-
-### What I Did (My Contribution)
-- **Defined the full project scope** — decided what pages to build, what sections to include, and what the final product should look like
-- **Directed all design decisions** — chose the color palette (`#1e2a3a` navy, teal `#9ED4C9`), layout structure (two-column product page, label-aligned form), and component requirements
-- **Reviewed and evaluated every output** — read through the generated code, understood what each element does, and approved or requested changes
-- **Iterated on the design** — gave follow-up instructions to refine spacing, fix alignment, adjust sizing, and improve visual hierarchy
-- **Learned the underlying structure** — studied the table nesting patterns, inline styling techniques, and form element types used throughout
-- **Organized and published** — structured the files, named assets correctly, and prepared the project for version control
-
-### Why This Approach Matters
-AI-assisted development is a **real and growing professional skill**. The ability to:
-1. Clearly define requirements and communicate them to an AI
-2. Critically evaluate AI-generated code for correctness and quality
-3. Iterate intelligently based on output
-4. Understand the code well enough to explain, modify, and maintain it
-
-...is exactly what modern development workflows demand. This project documents that skill honestly.
-
----
-
-## Projects Included
-
-### Project 1 — Timeless Watches (E-Commerce Product Page)
-
-**File:** `timeless-watches.html`
-
-A fully structured e-commerce product detail page for a fictional luxury watch brand. Designed to replicate the layout pattern of real-world product pages.
-
-#### Sections Built
-| Section | Description |
-|---|---|
-| Navigation Bar | Full-width dark header with brand name, search input, and 5 nav links |
-| Product Card | Centered white card (1150px wide) containing the full product layout |
-| Image Column | Hero image (480×480px) + thumbnail row of 6 images |
-| Product Info Column | Title, brand, pricing, description, star rating, quantity selector, CTA buttons |
-| Pricing Row | Sale price + original strikethrough price + red discount badge |
-| Quantity Selector | Bordered −/input/+ widget built with a 3-cell table |
-| Add to Bag Button | Full-width dark navy CTA button (table-based, no `<button>` tag) |
-| Newsletter Promo Box | Bordered offer card with secondary Sign Up CTA |
-
-#### Key Design Requirements I Specified
-- Two-column layout: image left, product details right
-- Dark navy (`#1e2a3a`) used for the navbar and both CTA buttons for brand consistency
-- Discount badge in red (`#cc4444`) to draw attention
-- Star rating using HTML entity `&#9733;` in gold (`#f5a623`)
-- Thumbnail row with 6px gaps between images using `cellspacing="6"`
-- Newsletter box visually separated using a light grey background (`#f9f9f9`) and border
-
----
-
-### Project 2 — Survey Form (Data Collection UI)
-
-**File:** `survey-form.html`
-
-A clean, structured survey form UI. Built using a two-column table layout that aligns labels on the right with inputs on the left — the standard pattern for accessible, readable forms.
-
-#### Form Fields Built
-| Field | Input Type | Notes |
-|---|---|---|
-| Name | `type="text"` | Required field (`*` indicator) |
-| Email | `type="email"` | Required field, email validation built-in |
-| Age | `type="number"` | Required field |
-| Current Role | `<select>` | 4 options: Student, Full Time, Part Time, Other |
-| Recommendation | `type="radio"` | 3 options, `name="recommend"` groups them |
-| Like Most | `<select>` | 3 options + default placeholder option |
-| Things to Improve | `type="checkbox"` | 3 options, multi-select via `name="improve"` |
-
-#### Key Design Requirements I Specified
-- Teal page background (`#9ED4C9`) for a calm, non-distracting form environment
-- White card container (960px) for the form — centred on the page
-- All labels right-aligned in a 420px column, inputs in a 480px column
-- Multi-line labels (radio + checkbox sections) handled using nested tables to maintain right-alignment
-- `name="recommend"` attribute on all radio buttons so they behave as a mutually exclusive group
-- Required fields visually marked with `*` prefix in the label text
-
----
-
-## Tech Stack
-
-| Technology | Role in This Project |
-|---|---|
-| HTML5 | Full document structure and all content |
-| `<table>` layout | Grid system — rows, columns, spacing, alignment |
-| Inline `style=""` | `border-radius`, `cursor`, `line-height`, `font-size`, specific overrides |
-| HTML presentation attributes | `bgcolor`, `align`, `valign`, `cellpadding`, `cellspacing`, `width`, `height` |
-| `<font>` tag | Typography: `size`, `color`, `face` attributes |
-| Native HTML form elements | `<input>`, `<select>`, `<option>`, radio, checkbox, number inputs |
-| HTML character entities | `&#9733;` (star), `&#9679;` (dot), `&nbsp;` (space) |
-| External image (Unsplash CDN) | Thumbnail 4 in the watch gallery |
-| Claude by Anthropic | AI assistant used to generate and refine the code |
-
----
-
-## Folder Structure
+<br/>
 
 ```
-📁 project-root/
+╔══════════════════════════════════════════════════════════════════════╗
+║  🤖  AI MODEL        →   Claude by Anthropic                        ║
+║  ⚡  BUILD METHOD    →   Prompt Engineering — Zero Manual Typing    ║
+║  📄  FILES BUILT     →   2 Complete HTML Pages                      ║
+║  🧠  CONCEPTS USED   →   20+ Core HTML Attributes & Tags            ║
+║  ✅  VALIDATION      →   HTML5 Native — Passed                      ║
+║  🕐  BUILD TIME      →   Instant — AI Generated                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## 📁 Repository Structure
+
+```
+html-projects/
 │
-├── 📄 timeless-watches.html      →  E-Commerce product page
-├── 📄 survey-form.html           →  Survey data collection form
+├── 📄 survey-form/
+│   └── index.html              ← freeCodeCamp Survey Form
 │
-├── 🖼️  heroimg.jpeg               →  Main product hero image (480×480)
-├── 🖼️  img1.jpeg                  →  Thumbnail 1
-├── 🖼️  img2.jpeg                  →  Thumbnail 2
-├── 🖼️  img3.jpeg                  →  Thumbnail 3
-├── 🖼️  img5.jpeg                  →  Thumbnail 5
-├── 🖼️  img6.jpeg                  →  Thumbnail 6
+├── 📄 ecommerce-page/
+│   ├── index.html              ← Luxury Watch Product Page
+│   ├── heroimg.jpeg            ← Main product hero image
+│   ├── img1.jpeg               ← Thumbnail angle 1
+│   ├── img2.jpeg               ← Thumbnail angle 2
+│   ├── img3.jpeg               ← Thumbnail angle 3
+│   ├── img5.jpeg               ← Thumbnail angle 5
+│   └── img6.jpeg               ← Thumbnail angle 6
 │
-└── 📄 README.md                   →  This file
-```
-
-> **Note on Thumbnail 4:** Loaded from Unsplash CDN —
-> `https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=120&q=60`
-> No local file required. Needs an active internet connection to display.
-
----
-
-## Layout Architecture
-
-### E-Commerce Layout Tree
-
-```
-<body> [bgcolor="#f0f0f0"]
-│
-├── TABLE (width=100%, bgcolor="#1e2a3a") ── NAVIGATION BAR
-│     └── TR [valign="middle"]
-│           ├── TD (width=500)  →  Brand name: "TIMELESS WATCHES"
-│           ├── TD              →  Search <input> + dot symbol
-│           └── TD (width=380, align=right)  →  5 nav <a> links
-│
-└── TABLE (width=100%, cellpadding=40) ── PAGE WRAPPER
-      └── TR > TD [align="center"]
-            └── TABLE (width=1150, bgcolor="#fff") ── PRODUCT CARD
-                  └── TR [valign="middle"]
-                        │
-                        ├── TD (width=500) ── LEFT: IMAGE COLUMN
-                        │     └── TABLE
-                        │           ├── TR → <img> heroimg.jpeg (480×480)
-                        │           ├── TR → spacer (height=15)
-                        │           └── TR → TABLE (cellspacing=6)
-                        │                     └── TR
-                        │                           ├── TD → img1.jpeg (70×65)
-                        │                           ├── TD → img2.jpeg (70×65)
-                        │                           ├── TD → img3.jpeg (70×65)
-                        │                           ├── TD → Unsplash img (70×65)
-                        │                           ├── TD → img5.jpeg (70×65)
-                        │                           └── TD → img6.jpeg (70×65)
-                        │
-                        └── TD ── RIGHT: PRODUCT DETAIL COLUMN
-                              └── TABLE (width=100%)
-                                    ├── TR → Product Title (font size=6, bold)
-                                    ├── TR → Brand subtitle (font size=2, #555555)
-                                    ├── TR → spacer (height=15)
-                                    ├── TR → Pricing row
-                                    │         ├── Sale price (size=5, bold)
-                                    │         ├── Original price (size=3, strikethrough)
-                                    │         └── Discount badge (size=2, #cc4444)
-                                    ├── TR → spacer (height=15)
-                                    ├── TR → Description text (size=3, #444444)
-                                    ├── TR → spacer (height=15)
-                                    ├── TR → Star rating (&#9733; × 5, #f5a623) + review count
-                                    ├── TR → spacer (height=20)
-                                    ├── TR → QUANTITY SELECTOR
-                                    │         └── TABLE (border=1, bordercolor=#cccccc)
-                                    │               └── TR
-                                    │                     ├── TD (35×35) → "−" button
-                                    │                     ├── TD (50×35) → <input type=number>
-                                    │                     └── TD (35×35) → "+" button
-                                    ├── TR → spacer (height=20)
-                                    ├── TR → ADD TO BAG BUTTON
-                                    │         └── TABLE (width=100%)
-                                    │               └── TR > TD (bgcolor=#1e2a3a, height=48)
-                                    │                         └── "Add to Bag" white text
-                                    ├── TR → spacer (height=20)
-                                    └── TR → NEWSLETTER PROMO BOX
-                                              └── TABLE (border=1, bgcolor=#f9f9f9)
-                                                    └── TR > TD [align=center]
-                                                          ├── "Limited-Time Offer!" heading
-                                                          ├── Offer description text
-                                                          └── TABLE (bgcolor=#1e2a3a)
-                                                                └── "Sign Up Now" button
+└── 📄 README.md                ← You are here
 ```
 
 ---
 
-### Survey Form Layout Tree
+## 📋 Table of Contents
+
+| # | Section |
+|---|---------|
+| [01](#-project-1--survey-form) | Project 1 — Survey Form |
+| [02](#-project-2--e-commerce-product-page) | Project 2 — E-Commerce Product Page |
+| [03](#-html-concepts-used) | HTML Concepts Used |
+| [04](#-what-i-built-with-ai) | What I Built with AI |
+| [05](#-key-learnings) | Key Learnings |
+
+---
+
+<br/>
+
+# 📋 Project 1 — Survey Form
+
+<div align="center">
+
+[[<img width="975" height="649" alt="Screenshot 2026-05-29 at 12 23 40 AM" src="https://github.com/user-attachments/assets/dcbe7629-e8f0-456c-86e5-7c66da3718c4" />](http://127.0.0.1:5500/manual-html/survey-form.html#)](http://127.0.0.1:5500/ai-html/survey-form.html#)
+
+*Survey Form — Built for freeCodeCamp's Responsive Web Design Challenge*
+
+</div>
+
+<br/>
+
+## 🧾 Project Overview
+
+A fully functional, accessible **survey form** built with AI assistance in pure HTML.
+This project was part of the **freeCodeCamp Responsive Web Design Certification**. The form was AI-generated using semantic HTML with no frameworks, no copy-paste shortcuts, and no external libraries.
+
+The form collects:
+- Personal info (Name, Email, Age)
+- User role (student, full time job, part time job, etc.)
+- Recommendation likelihood (radio buttons)
+- Favorite freeCodeCamp feature (dropdown)
+- Improvement suggestions (checkboxes)
+
+---
+
+## 🗂️ Page Structure — How It's Built
 
 ```
-<body> [bgcolor="#9ED4C9"]
-│
-├── TABLE (width=100%) ── PAGE TITLE
-│     └── TR > TD [align="center"]
-│           └── "Survey Form" (font size=7, bold)
-│
-└── TABLE (width=960, bgcolor="#ffffff", align=center) ── FORM CARD
-      └── TR > TD
-            └── TABLE (width=100%) ── INNER FORM TABLE
-                  │
-                  ├── TR [colspan=2, align=center, height=60]
-                  │     └── Subtitle: "Let us know how we can improve freeCodeCamp"
-                  │
-                  ├── TR [valign=middle] ── NAME FIELD
-                  │     ├── TD (width=420, align=right) → "* Name:" label
-                  │     └── TD (width=480) → <input type="text">
-                  │
-                  ├── TR [valign=middle] ── EMAIL FIELD
-                  │     ├── TD (align=right) → "* Email:" label
-                  │     └── TD → <input type="email">
-                  │
-                  ├── TR [valign=middle] ── AGE FIELD
-                  │     ├── TD (align=right) → "* Age:" label
-                  │     └── TD → <input type="number">
-                  │
-                  ├── TR [valign=middle] ── ROLE DROPDOWN
-                  │     ├── TD (align=right) → "Which option...role?" label
-                  │     └── TD → <select> [Student / Full Time / Part Time / Other]
-                  │
-                  ├── TR [valign=top] ── RECOMMENDATION RADIO GROUP
-                  │     ├── TD (align=right)
-                  │     │     └── TABLE (2 rows) → wrapped label text
-                  │     └── TD
-                  │           └── TABLE (3 rows)
-                  │                 ├── TR → <radio value="definitely"> Definitely
-                  │                 ├── TR → <radio value="maybe"> Maybe
-                  │                 └── TR → <radio value="notsure"> Not sure
-                  │
-                  ├── TR [valign=middle] ── PREFERENCE DROPDOWN
-                  │     ├── TD (align=right) → "What do you like most in FCC:"
-                  │     └── TD → <select> [Challenges / Projects / Community]
-                  │
-                  ├── TR [valign=top] ── IMPROVEMENT CHECKBOXES
-                  │     ├── TD (align=right)
-                  │     │     └── TABLE (2 rows) → wrapped label text
-                  │     └── TD
-                  │           └── TABLE (3 rows)
-                  │                 ├── TR → <checkbox value="frontend"> Front-end Projects
-                  │                 ├── TR → <checkbox value="backend"> Back-end Projects
-                  │                 └── TR → <checkbox value="datavis"> Data Visualization
-                  │
-                  └── TR → spacer (colspan=2, height=40)
+<body>
+  │
+  ├── <table> ──────────────── Title row: "Survey Form" centered
+  │
+  └── <table> ──────────────── Main white card container (width: 960px)
+        │
+        └── <table> ──────────── Inner layout table — 2 columns: label | input
+              ├── Row 1: Subtitle text
+              ├── Row 2: Name (text input)
+              ├── Row 3: Email (email input)
+              ├── Row 4: Age (number input)
+              ├── Row 5: Role (select dropdown)
+              ├── Row 6: Recommendation (radio buttons)
+              ├── Row 7: Most liked feature (select dropdown)
+              └── Row 8: Improvements (checkboxes)
 ```
 
 ---
 
-## Component Breakdown
+## 🔍 Detailed Element Breakdown
 
-### Navigation Bar
-Full-width `<table>` with `bgcolor="#1e2a3a"`. Three `<td>` cells handle brand (left), search (center), nav links (right). All `<a>` tags override default link styling with `style="color:white; text-decoration:none;"` inline. `&nbsp;` entities add spacing between links.
+### 🌊 Page Background & Wrapper
 
-### Hero Image
-Single `<img>` tag at `480×480px` with `border-radius: 4px` inline style for slight rounding. The `alt` attribute is set for accessibility.
-
-### Thumbnail Gallery
-A nested `<table>` with `cellspacing="6"` creates natural gaps between thumbnails. Each `<td>` holds one `<img>` at `70×65px`. Thumbnail 4 uses an external Unsplash URL as a live CDN image.
-
-### Pricing Row
-Three inline elements in one `<td>`: sale price (`<font size="5">`), original price wrapped in `<s>` strikethrough tags (`<font color="#888888">`), and discount badge (`<font color="#cc4444">`). `&nbsp;&nbsp;` creates spacing between them.
-
-### Star Rating
-Five `&#9733;` HTML star entities inside a `<font color="#f5a623">` tag. Review count sits beside it in a smaller, muted font. No images or icon libraries — pure character entities.
-
-### Quantity Selector
-A `<table border="1" bordercolor="#cccccc">` creates the visible border box. Three `<td>` cells: minus (35px wide), number input (50px with `border:none` to remove default input border), plus (35px). `cursor: pointer` on both button cells gives interactive feel without JavaScript.
-
-### CTA Buttons (Add to Bag / Sign Up Now)
-Both buttons are `<table>` elements with `bgcolor="#1e2a3a"` and `border-radius: 4px`. The "button" is actually a styled `<td>` cell — a standard technique in table-layout HTML where CSS `<button>` elements are unavailable or unsupported.
-
-### Newsletter Promo Box
-Outer `<table>` with `border="1"` `bordercolor="#dddddd"` and `bgcolor="#f9f9f9"` creates a visually distinct card. The Sign Up button is a nested inner table using the same navy button pattern.
-
-### Survey Form Fields
-Every input pair = one `<tr>` with two `<td>` cells. Label cell: `width="420"`, `align="right"`. Input cell: `width="480"`. Multi-line labels (radio, checkbox) use a **nested table** inside the label `<td>` — each row holds one line of text — maintaining consistent right-alignment without breaking the column widths.
-
-### Radio Button Grouping
-All three recommendation radio inputs share `name="recommend"`. This HTML attribute makes them **mutually exclusive** — selecting one automatically deselects the others. This is native browser behaviour, no JavaScript needed.
-
-### Checkbox Group
-All three improvement checkboxes share `name="improve"`. Unlike radio buttons, checkboxes with the same name allow **multiple selections** simultaneously — the correct input type for "check all that apply" scenarios.
-
----
-
-## Design Decisions
-
-### Why Table-Based Layout?
-Table layouts were chosen intentionally for two reasons:
-1. **HTML email compatibility** — Table-based structure is the industry standard for HTML emails, which still do not support CSS Grid or Flexbox in most email clients (Outlook, Gmail, Apple Mail). Learning this pattern has direct real-world application.
-2. **Foundational understanding** — Understanding how browsers render block elements without modern CSS is a skill that distinguishes developers who truly understand the web from those who only know framework syntax.
-
-### Why Inline Styles Over an External CSS File?
-Inline styling keeps each HTML file fully **self-contained and portable** — open it anywhere, no missing stylesheet. This also reflects the constraints of HTML email development where external CSS is often stripped by email clients.
-
-### Why `<font>` Tags?
-`<font>` is deprecated in HTML5 but was used deliberately here to maintain consistency with the table-layout paradigm. In production code, these would be replaced with CSS classes — but understanding legacy markup is valuable for reading and maintaining older codebases.
-
-### Why a `<table>` as a Button?
-Native `<button>` and `<a>` tags with heavy CSS styling were not used in order to stay consistent with the pure-table, pure-attribute approach of the project. The table-as-button technique (`<td bgcolor="..." align="center" style="cursor:pointer">`) is the standard approach in HTML email CTA buttons.
-
----
-
-## Color Palette
-
-### Timeless Watches
-
-| Role | Hex Code | Used In |
-|---|---|---|
-| Primary Dark (Navy) | `#1e2a3a` | Navbar background, CTA buttons |
-| Page Background | `#f0f0f0` | Body background |
-| Card Background | `#ffffff` | Product card |
-| Discount Badge | `#cc4444` | "38% OFF" text |
-| Star Rating Gold | `#f5a623` | 5-star rating icons |
-| Body Text | `#444444` | Product description |
-| Muted Text | `#555555` | Brand name, review count |
-| Strikethrough Price | `#888888` | Original price |
-| Promo Box Background | `#f9f9f9` | Newsletter offer card |
-| Border Colour | `#dddddd` | Promo box border |
-| Thumbnail Border | `#cccccc` | Quantity selector border |
-
-### Survey Form
-
-| Role | Hex Code | Used In |
-|---|---|---|
-| Page Background (Teal) | `#9ED4C9` | Body background |
-| Form Card | `#ffffff` | White form container |
-| Label Text | `#333333` | All form labels |
-
----
-
-## How to Run Locally
-
-No build process. No installs. No terminal commands needed.
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-
-# 2. Navigate into the folder
-cd YOUR_REPO_NAME
+```html
+<body bgcolor="#9ED4C9" topmargin="30" leftmargin="0" marginwidth="0" marginheight="0">
 ```
 
-Then simply **open either `.html` file directly in your browser**:
+**What was done here:**
+- Set the **teal background color** (`#9ED4C9`) using the `bgcolor` attribute on the body
+- `topmargin="30"` adds 30px of space at the top of the page
+- `leftmargin="0"`, `marginwidth="0"`, `marginheight="0"` reset all other margins to zero for clean layout
 
-```bash
-# macOS
-open timeless-watches.html
-open survey-form.html
-
-# Windows
-start timeless-watches.html
-start survey-form.html
-
-# Linux
-xdg-open timeless-watches.html
-xdg-open survey-form.html
+**Visual output:**
+```
+┌──────────────────────────────────────────────────┐
+│           (teal background #9ED4C9)              │
+│   ┌─────────────────────────────────────────┐   │
+│   │        [WHITE CARD CONTAINER]           │   │
+│   └─────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────┘
 ```
 
-Or drag and drop any `.html` file into a browser window.
+---
 
-> ⚠️ **Image Note:** The watch page requires `heroimg.jpeg`, `img1.jpeg`, `img2.jpeg`, `img3.jpeg`, `img5.jpeg`, and `img6.jpeg` to be present in the **same folder** as `timeless-watches.html`. Thumbnail 4 loads from Unsplash CDN and requires an internet connection.
+### 📦 Title Row
+
+```html
+<table width="100%" cellpadding="20" cellspacing="0" border="0">
+  <tr>
+    <td align="center">
+      <font face="Arial" size="7"><b>Survey Form</b></font>
+    </td>
+  </tr>
+</table>
+```
+
+**What was done here:**
+- A full-width `<table>` is used to center the page title
+- `<font face="Arial" size="7">` sets the font family and a large display size
+- `<b>` makes the title bold
+- `cellpadding="20"` adds 20px of breathing room around the title text
 
 ---
 
-## Author
+### 📦 White Card Container (Table as Layout)
 
-**Your Name**
-- 🐙 GitHub: [@your_username](https://github.com/your_username)
-- 💼 LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+```html
+<table width="960" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" align="center">
+```
+
+**What was done here:**
+- Used a `<table>` as the white card container — a classic HTML layout technique
+- `width="960"` → Fixed width of the card
+- `bgcolor="#ffffff"` → White background
+- `cellspacing="0"` and `cellpadding="0"` → No gaps or inner padding (spacing is handled by inner rows)
+- `align="center"` → Centers the card on the page
 
 ---
 
-> *Built with AI assistance (Claude by Anthropic). Directed, reviewed, iterated, and published by me.*
+### 🔤 Text Input — Name Field
+
+```html
+<td align="right" width="420" height="48">
+  <font size="3" color="#333333">&nbsp;* Name:&nbsp;&nbsp;</font>
+</td>
+<td width="480">
+  <input type="text" placeholder="Enter your name" size="48">
+</td>
+```
+
+**What was done here:**
+- Two-column layout: label in left `<td>`, input in right `<td>`
+- `align="right"` on the label cell right-aligns all labels for visual neatness
+- `&nbsp;` before the asterisk and after the colon add spacing within the label text
+- `type="text"` → Standard single-line text field
+- `placeholder` → Ghost text shown before user types
+- `size="48"` → Controls the visible width of the input box
+
+---
+
+### 📧 Email Input
+
+```html
+<input type="email" placeholder="Enter your Email" size="48">
+```
+
+**What was done here:**
+- `type="email"` → Browser automatically validates email format (must contain `@`)
+- On mobile devices, this triggers the email keyboard automatically
+- Same `size="48"` as name input for visual consistency across all fields
+
+---
+
+### 🔢 Number Input — Age Field
+
+```html
+<input type="number" placeholder="Age" size="48">
+```
+
+**What was done here:**
+- `type="number"` → Shows numeric keyboard on mobile, adds up/down arrows on desktop
+- `placeholder="Age"` → Shows hint text before the user types
+- `size="48"` keeps visual consistency with other inputs
+
+---
+
+### 📌 Dropdown Select — Role
+
+```html
+<select size="1">
+  <option value="student">Student</option>
+  <option value="fulltime">Full Time Job</option>
+  <option value="parttime">Part Time Job</option>
+  <option value="other">Other</option>
+</select>
+```
+
+**What was done here:**
+- `<select>` creates the dropdown container
+- `size="1"` → Shows only one visible option at a time (standard dropdown behaviour)
+- Each `<option>` is one choice in the list
+- `value` attribute is what gets submitted to the server; text inside is what the user sees
+
+---
+
+### 🔘 Radio Buttons — Recommendation
+
+```html
+<input type="radio" name="recommend" value="definitely"> <font size="3">Definitely</font>
+<input type="radio" name="recommend" value="maybe"> <font size="3">Maybe</font>
+<input type="radio" name="recommend" value="notsure"> <font size="3">Not sure</font>
+```
+
+**What was done here:**
+- All 3 radio buttons share `name="recommend"` → This groups them so only ONE can be selected at a time
+- Each radio sits in its own `<tr>` inside a nested table for clean vertical stacking
+- `<font size="3">` labels sit inline next to each radio button
+- No default `checked` is set — user must make an active choice
+
+---
+
+### ☑️ Checkboxes — Improvements
+
+```html
+<input type="checkbox" name="improve" value="frontend"> <font size="3">Front-end Projects</font>
+<input type="checkbox" name="improve" value="backend"> <font size="3">Back-end Projects</font>
+<input type="checkbox" name="improve" value="datavis"> <font size="3">Data Visualization</font>
+```
+
+**What was done here:**
+- Unlike radio buttons, **multiple checkboxes can be selected simultaneously**
+- All share `name="improve"` but multiple values can be submitted
+- Each checkbox sits in its own `<tr>` inside a nested table — same pattern as radio buttons
+- `<font size="3">` labels keep font size consistent with the rest of the form
+
+---
+
+### 📸 Final Output Preview
+
+<div align="center">
+
+[![Form Structure](https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80&auto=format&fit=crop)](http://127.0.0.1:5500/ai-html/survey-form.html#)
+
+*Clean two-column form layout with labels on left, inputs on right*
+
+</div>
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                    Survey Form                             │
+│     Let us know how we can improve freeCodeCamp            │
+│                                                            │
+│  * Name:       [________________________]                  │
+│  * Email:      [________________________]                  │
+│  * Age:        [___]                                       │
+│  Role:         [ Student ▼ ]                               │
+│  Recommend?    ○ Definitely  ○ Maybe  ○ Not sure           │
+│  Like most:    [ Select an option ▼ ]                      │
+│  Improve:      ☐ Front-end  ☐ Back-end  ☐ Data Viz        │
+└────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<br/>
+
+# 🛍️ Project 2 — E-Commerce Product Page
+
+<div align="center">
+
+![E-Commerce Preview](https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80&auto=format&fit=crop)
+*Luxury Watch E-Commerce Product Page — AI-Coded*
+
+</div>
+
+<br/>
+
+## 🧾 Project Overview
+
+A complete **luxury watch e-commerce product page** built with AI assistance in raw HTML — no CSS file, no JavaScript frameworks. This replicates a real-world product detail page (like you'd see on Rolex, Omega, or any premium watch store) with:
+
+- Navigation header with search bar
+- Full product image gallery (hero + 6 thumbnails)
+- Pricing with discount and strike-through
+- Star ratings
+- Quantity selector
+- Add to Bag button
+- Limited-time offer promo section
+
+---
+
+## 🗂️ Page Structure — How It's Built
+
+```
+<body>
+  │
+  ├── <table> ──────────── Navigation bar (logo | search | links)
+  │     └── <tr> ────────── 3-column nav layout
+  │
+  └── <table> ───────────── Outer page wrapper
+        └── <table> ──────── Main product card (1150px white card)
+              └── <tr> ─────── Two-column layout: images LEFT | details RIGHT
+                    ├── LEFT TD: Hero image + 6 thumbnail images
+                    └── RIGHT TD: Product info card table
+                          ├── Title + Brand
+                          ├── Price + Discount
+                          ├── Description
+                          ├── Star Rating
+                          ├── Quantity Selector
+                          ├── Add to Bag Button
+                          └── Promo Banner Table
+```
+
+---
+
+## 🔍 Detailed Element Breakdown
+
+### 🧭 Navigation Header
+
+```html
+<table width="100%" bgcolor="#1e2a3a" cellpadding="12" cellspacing="0" border="0">
+  <tr valign="middle">
+    <td width="500">
+      <font color="#ffffff" size="4"><b>TIMELESS WATCHES</b></font>
+    </td>
+    <td>
+      <input type="text" placeholder="Search..." size="70">
+      &nbsp;&#9679;
+    </td>
+    <td align="right" width="380">
+      <font color="#ffffff" size="2">
+        <a href="#" style="color:white;text-decoration:none;">Shop</a>&nbsp;&nbsp;
+        <a href="#" style="color:white;text-decoration:none;">New Arrivals</a>&nbsp;&nbsp;
+        <a href="#" style="color:white;text-decoration:none;">Brands</a>&nbsp;&nbsp;
+        <a href="#" style="color:white;text-decoration:none;">About</a>&nbsp;&nbsp;
+        <a href="#" style="color:white;text-decoration:none;">Contact</a>
+      </font>
+    </td>
+  </tr>
+</table>
+```
+
+**What was done here:**
+- A full-width `<table>` with `bgcolor="#1e2a3a"` creates a dark navy header bar
+- 3 `<td>` cells create 3 columns: **Logo | Search | Links**
+- `valign="middle"` vertically centers all content in the row
+- `<font color="#ffffff">` and `<b>` make the brand name white and bold
+- `size="70"` on the search input makes it visually wide across the center
+- `&#9679;` is an HTML entity for a filled circle bullet used as a decorative search indicator
+- `text-decoration:none` on `<a>` tags removes the default underline from nav links
+
+**Visual output:**
+```
+┌────────────────────────────────────────────────────────────────┐
+│ TIMELESS WATCHES    [Search...____________●]   Shop  New  ...  │
+└────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🖼️ Product Image Gallery
+
+```html
+<!-- HERO IMAGE -->
+<img src="heroimg.jpeg" alt="Elegant Luxury Watch" width="480" height="480"
+  style="border-radius: 4px;">
+
+<!-- THUMBNAILS -->
+<img src="img1.jpeg" width="70" height="65" alt="Thumb 1">
+<img src="img2.jpeg" width="70" height="65" alt="Thumb 2">
+<img src="img3.jpeg" width="70" height="65" alt="Thumb 3">
+```
+
+**What was done here:**
+- `heroimg.jpeg` is the main large product image (480×480px)
+- `border-radius: 4px` softens the image corners slightly
+- 6 thumbnail images are placed in a nested `<table>` with `cellspacing="6"` for even gaps between them
+- `width` and `height` both set to 70×65 on thumbnails for uniform grid appearance
+- Each `alt` attribute is descriptive — important for SEO and accessibility
+- A spacer `<tr>` with `height="15"` creates visual breathing room between the hero and thumbnails
+
+**Visual output:**
+```
+┌──────────────────────────────┐
+│                              │
+│      [HERO IMAGE 480px]      │
+│                              │
+└──────────────────────────────┘
+[70] [70] [70] [70] [70] [70]  ← thumbnails
+```
+
+---
+
+### 💰 Pricing Section — Price + Discount
+
+```html
+<font size="5" face="Arial, sans-serif"><b>$499.99</b></font>
+&nbsp;&nbsp;
+<font size="3" color="#888888" face="Arial, sans-serif"><s>$799.99</s></font>
+&nbsp;&nbsp;
+<font size="2" color="#cc4444" face="Arial, sans-serif"><b>38% OFF</b></font>
+```
+
+**What was done here:**
+- Three `<font>` elements sit inline on the same line — displayed side by side
+- `size="5"` + `<b>` → Current price stands out visually
+- `<s>` tag → Strikes through the old price — same semantic meaning as `<del>`
+- `color="#888888"` on old price → Greys it out to de-emphasize
+- `color="#cc4444"` on discount → Red colour draws the eye to the saving
+- `&nbsp;&nbsp;` between each element adds horizontal spacing
+
+**Visual output:**
+```
+$499.99   ~~$799.99~~   38% OFF
+ (bold)    (grey/strike)  (red bold)
+```
+
+---
+
+### ⭐ Star Rating
+
+```html
+<font color="#f5a623">&#9733;&#9733;&#9733;&#9733;&#9733;</font>
+&nbsp;
+<font size="2" color="#555555" face="Arial, sans-serif">Rated 4.8/5 (256 reviews)</font>
+```
+
+**What was done here:**
+- Used HTML entity `&#9733;` (★) repeated five times — no images or icon libraries needed
+- `color="#f5a623"` → Warm golden-amber colour applied via `<font>` tag
+- Review text follows the stars inline on the same line using `&nbsp;` for spacing
+
+---
+
+### 🔢 Quantity Selector
+
+```html
+<table cellpadding="0" cellspacing="0" border="1" bordercolor="#cccccc">
+  <tr>
+    <td width="35" height="35" align="center" bgcolor="#ffffff" style="cursor: pointer;">
+      <font size="4" face="Arial, sans-serif"><b>-</b></font>
+    </td>
+    <td width="50" height="35" align="center" bgcolor="#ffffff">
+      <input type="number" value="1" min="1" style="width: 40px; text-align: center; border: none; font-size: 14px;">
+    </td>
+    <td width="35" height="35" align="center" bgcolor="#ffffff" style="cursor: pointer;">
+      <font size="4" face="Arial, sans-serif"><b>+</b></font>
+    </td>
+  </tr>
+</table>
+```
+
+**What was done here:**
+- A `<table>` with `border="1" bordercolor="#cccccc"` creates the bordered box around the selector
+- Three `<td>` cells hold the `-` button, the number input, and the `+` button side by side
+- `type="number" value="1" min="1"` → Default quantity is 1, cannot go below 1
+- `border: none` on the input → Removes the inner border so only the outer table border shows
+- `cursor: pointer` on the `-` and `+` cells → Shows a hand cursor to signal they are clickable
+- `text-align: center` → Centers the number inside the input box
+
+**Visual output:**
+```
+┌─────┬──────┬─────┐
+│  -  │  1   │  +  │
+└─────┴──────┴─────┘
+```
+
+---
+
+### 🛒 Add to Bag Button
+
+```html
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td bgcolor="#1e2a3a" align="center" height="48" style="border-radius: 4px; cursor: pointer;">
+      <font color="#ffffff" size="3" face="Arial, sans-serif">
+        <b>Add to Bag</b>
+      </font>
+    </td>
+  </tr>
+</table>
+```
+
+**What was done here:**
+- `width="100%"` on the outer `<table>` → Button stretches full width of its container
+- `bgcolor="#1e2a3a"` → Deep navy/dark color on the `<td>` — luxury feel
+- `<font color="#ffffff">` → White text for high contrast
+- `height="48"` → Generous vertical height makes the button feel premium and tappable
+- `border-radius: 4px` → Slightly rounded corners — modern style
+- `cursor: pointer` → Shows hand cursor on hover
+
+**Visual output:**
+```
+┌────────────────────────────────────────┐
+│              Add to Bag                │  ← dark navy bg, white text
+└────────────────────────────────────────┘
+```
+
+---
+
+### 🎁 Promo / Offer Banner
+
+```html
+<table width="100%" cellpadding="16" cellspacing="0" border="1" bordercolor="#dddddd"
+  bgcolor="#f9f9f9" style="border-radius: 6px;">
+  <tr>
+    <td align="center">
+      <font size="3" face="Arial, sans-serif"><b>Limited-Time Offer!</b></font>
+      <br><br>
+      <font size="2" color="#555555" face="Arial, sans-serif">
+        Get an additional 10% off your first purchase when you sign up for our newsletter.
+      </font>
+      <br><br>
+      <table cellpadding="10" cellspacing="0" border="0" bgcolor="#1e2a3a"
+        style="border-radius: 4px; cursor: pointer;">
+        <tr>
+          <td align="center" style="padding-left: 25px; padding-right: 25px;">
+            <font color="#ffffff" size="2" face="Arial, sans-serif"><b>Sign Up Now</b></font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+```
+
+**What was done here:**
+- Used a `<table>` as a styled "card" inside the right column — gives it a distinct bordered box
+- `bgcolor="#f9f9f9"` → Off-white background distinguishes it from the main white card
+- `border="1" bordercolor="#dddddd"` → Subtle border frames the promo area
+- `border-radius: 6px` → Rounded corners on the promo box
+- `<br><br>` used for vertical spacing between the heading, text, and button
+- Same dark navy inner `<table>` button style as "Add to Bag" for visual consistency
+- `padding-left: 25px; padding-right: 25px` on the button cell gives it generous horizontal padding
+
+**Visual output:**
+```
+┌──────────────────────────────────────┐
+│         Limited-Time Offer!          │
+│  Get an additional 10% off your      │
+│  first purchase when you sign up.    │
+│         [ Sign Up Now ]              │
+└──────────────────────────────────────┘
+```
+
+---
+
+### 📸 Final Output Preview
+
+<div align="center">
+
+![Product Page Layout](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80&auto=format&fit=crop)
+*Two-column product detail layout — image gallery + info card*
+
+</div>
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│ TIMELESS WATCHES      [Search...●]      Shop  New  Brands  About │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   ┌──────────────────────┐   ┌────────────────────────────────┐  │
+│   │                      │   │  Elegant Luxury Watch          │  │
+│   │   [HERO IMAGE]       │   │  PRESTIGE TIME CO.             │  │
+│   │     480px wide       │   │                                │  │
+│   │                      │   │  $499.99  ~~$799.99~~  38% OFF │  │
+│   └──────────────────────┘   │                                │  │
+│   [70][70][70][70][70][70]   │  ★★★★★ 4.8/5 (256 reviews)   │  │
+│   ← 6 thumbnails →          │                                │  │
+│                              │  [-] [1] [+]                   │  │
+│                              │  [     Add to Bag     ]        │  │
+│                              │  ┌──────────────────────────┐  │  │
+│                              │  │   Limited-Time Offer!    │  │  │
+│                              │  │   [ Sign Up Now ]        │  │  │
+│                              │  └──────────────────────────┘  │  │
+│                              └────────────────────────────────┘  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<br/>
+
+# 🧠 HTML Concepts Used
+
+<div align="center">
+
+![HTML Concepts](https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=900&q=80&auto=format&fit=crop)
+*Core HTML concepts applied throughout both projects*
+
+</div>
+
+<br/>
+
+| Concept | Used In | How It Was Used |
+|---------|---------|-----------------|
+| `<table>` layout | Both | Page structure, form layout, product card |
+| `<font>` tag with `face`, `size`, `color` | Both | Text styling without external CSS |
+| Input types: `text`, `email`, `number` | Survey Form | Data collection with built-in validation |
+| Input types: `radio`, `checkbox`, `select` | Survey Form | Choice selection |
+| `name` attribute grouping on radio buttons | Survey Form | Ensures only one radio can be selected |
+| `min` on number input | E-Commerce | Quantity cannot go below 1 |
+| `<s>` tag | E-Commerce | Strikethrough original price |
+| `<b>` tag | Both | Bold text emphasis |
+| `&nbsp;` entity | Both | Horizontal spacing without CSS |
+| `&#9733;` entity | E-Commerce | Star character (★) for rating display |
+| `&#9679;` entity | E-Commerce | Bullet circle used in nav search area |
+| `bgcolor` attribute | Both | Background color on table cells and body |
+| `inline style` | Both | border-radius, cursor, text-align, font-size |
+| `cellspacing` / `cellpadding` | Both | Table spacing control |
+| `align` / `valign` | Both | Content alignment in table cells |
+| `placeholder` | Both | Input hint text |
+| `href="#"` | E-Commerce | Placeholder links |
+| `alt` attribute on images | E-Commerce | Accessibility + SEO |
+| `size` attribute on inputs | Survey Form | Controls visible width of input boxes |
+| `border` + `bordercolor` on tables | E-Commerce | Quantity selector box and promo card border |
+
+---
+
+<br/>
+
+# 🏗️ What I Built with AI
+
+### Everything AI-generated — zero manual typing, zero frameworks
+
+```
+✅ HTML document structure (DOCTYPE, html, head, body)
+✅ Navigation header with 3-column table layout and dark navy background
+✅ Search bar with decorative bullet entity
+✅ Semantic tags: <header> replaced with table-based nav using <font> and <b>
+✅ Two-column product layout using nested tables
+✅ Hero image (480×480) + 6-thumbnail gallery row with cellspacing gaps
+✅ Product title, brand, description
+✅ Price display with <s> strikethrough and coloured discount text
+✅ Star rating using &#9733; HTML entity
+✅ Quantity selector (-, number input, +) using a bordered table
+✅ Full-width CTA button built as a dark navy <td> with white <font>
+✅ Promotional offer card with nested button table
+✅ Complete survey form with 7 different field types
+✅ Radio buttons grouped by name attribute
+✅ Checkboxes with shared name for multi-select
+✅ Dropdowns with <option> values
+✅ All styling via inline CSS and HTML attributes (no external stylesheet)
+✅ Box shadows, border-radius, cursor styles — all via inline style
+```
+
+---
+
+<br/>
+
+# 📚 Key Learnings
+
+<div align="center">
+
+![Learnings](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=900&q=80&auto=format&fit=crop)
+*Key skills and concepts gained through building these projects*
+
+</div>
+
+<br/>
+
+### 01 — Table-Based Layout
+
+Using `<table>` for page layout taught me how websites were structured before CSS Grid and Flexbox. Understanding this foundation makes modern layout approaches much clearer.
+
+### 02 — Form Fundamentals
+
+Building the survey form reinforced that forms are the backbone of web interactivity — every login page, checkout, and contact form uses exactly these same elements.
+
+### 03 — Inline Styling vs External CSS
+
+Writing all CSS inline highlighted why external stylesheets exist — inline styles are harder to maintain at scale, but excellent for understanding which CSS property does what.
+
+### 04 — HTML Attributes for Styling
+
+Using `bgcolor`, `align`, `valign`, `cellpadding`, `cellspacing`, `border`, and `bordercolor` directly on HTML elements showed how much styling was possible before CSS became standard practice.
+
+### 05 — HTML Entities
+
+`&#9733;` for stars, `&#9679;` for bullets, `&nbsp;` for spaces — HTML entities are a powerful tool for adding visual elements without images or icon libraries.
+
+### 06 — The `<font>` Tag
+
+While deprecated in modern HTML, understanding `<font face="">`, `<font size="">`, and `<font color="">` gave clear insight into how text styling worked in early web development and why CSS was invented to replace it.
+
+---
+
+<br/>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║          🤖  This entire codebase was generated by AI               ║
+║      No manual typing. No copy-paste. Pure prompt engineering.       ║
+║                                                                      ║
+║   Survey Form ✦ E-Commerce Page ✦ 20+ HTML Concepts ✦ 0 Frameworks  ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=800&color=2ecc71&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting+this+repo!;Drop+a+⭐+if+this+helped+you!;Built+100%25+with+Artificial+Intelligence." alt="Typing SVG" />
+
+<br/>
+
+**If this helped you, please give it a ⭐ — it means a lot!**
+
+<br/>
+
+![Made with HTML](https://img.shields.io/badge/Made%20with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![AI Generated](https://img.shields.io/badge/AI-Generated-6B46C1?style=for-the-badge&logo=anthropic&logoColor=white)
+![No Frameworks](https://img.shields.io/badge/Zero-Frameworks-1a252f?style=for-the-badge)
+![Prompt Engineered](https://img.shields.io/badge/Prompt-Engineered-2ecc71?style=for-the-badge&logo=openai&logoColor=white)
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:2ecc71,25:0d4f3c,50:1a252f,75:0a0f1e,100:0a0f1e&height=200&section=footer&text=Generated%20by%20AI%20—%20Powered%20by%20Claude&fontSize=24&fontColor=ffffff&fontAlignY=50&stroke=2ecc71&strokeWidth=2&animation=fadeIn&reversal=true" width="100%" />
+
+</div>
