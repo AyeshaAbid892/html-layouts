@@ -691,6 +691,13 @@ Connecting labels to inputs is not just good practice — it's what makes forms 
 ---
 
 <br/>
+## Author
+
+**Your Name**
+- 🐙 GitHub: [@your_username](https://github.com/your_username)
+- 💼 LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+
+---
 
 <div align="center">
 
