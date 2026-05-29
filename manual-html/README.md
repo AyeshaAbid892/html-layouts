@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a252f,100:2ecc71&height=200&section=header&text=HTML%20Projects%20Portfolio&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Survey%20Form%20%7C%20E-Commerce%20Product%20Page&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a252f,100:2ecc71&height=200&section=header&text=HTML%20Projects%20Portfolio&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Survey%20Form%20%7C%20E-Commerce%20Product%20Page&descAlignY=58&descSize=16" width="100%" />
 <br/>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
