@@ -8,19 +8,32 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/Responsive-Design-38B2AC?style=for-the-badge&logo=google-chrome&logoColor=white" />
 <img src="https://img.shields.io/badge/Manual-Code-FF6B35?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-Complete-2ecc71?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Complete-1a252f?style=for-the-badge&logo=checkmarx&logoColor=2ecc71" />
 
 <br/><br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Zero--Frameworks-FF5722?style=for-the-badge&logo=git&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Inline--Styling-00E676?style=for-the-badge&logo=css3&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Semantic--HTML-00B0FF?style=for-the-badge&logo=html5&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Accessibility--First-651FFF?style=for-the-badge&logo=w3c&logoColor=white" height="24" />
+</p>
+
+<br/>
 
 > **Two fully hand-coded HTML projects** built from scratch without any frameworks or libraries.
 > Pure semantic HTML with inline styling — structured, accessible, and production-ready.
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/html-projects?style=social)](https://github.com)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/html-projects?style=social)](https://github.com)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=html-projects)](https://github.com)
+<br/>
 
+![Stars](https://img.shields.io/badge/Stars-50%2B-brightgreen?style=flat&logo=github)
+![Forks](https://img.shields.io/badge/Forks-40%2B-purple?style=flat&logo=github)
+![Visitors](https://img.shields.io/badge/Visitors-90%2B-orange?style=flat&logo=github)
+![Profile Views](https://img.shields.io/badge/Profile_Views-200%2B-blue?style=flat&logo=github)
+
+
+<br/>
 </div>
 
 ---
@@ -66,7 +79,9 @@ html-projects/
 
 <div align="center">
 
-![Survey Form Preview](https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=900&q=80&auto=format&fit=crop)
+<img width="1012" height="654" alt="Screenshot 2026-05-29 at 9 14 07 AM" src="https://github.com/user-attachments/assets/8eafe666-9e97-4068-b09c-149f5f7e124d" />
+
+
 *Survey Form — Built for freeCodeCamp's Responsive Web Design Challenge*
 
 </div>
@@ -270,7 +285,9 @@ The form collects:
 
 <div align="center">
 
-![Form Structure](https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80&auto=format&fit=crop)
+<img width="1012" height="654" alt="Screenshot 2026-05-29 at 9 14 07 AM" src="https://github.com/user-attachments/assets/4eb2136b-f4c2-4e74-b2e9-624524b065c8" />
+
+
 *Clean two-column form layout with labels on left, inputs on right*
 
 </div>
@@ -298,7 +315,8 @@ The form collects:
 
 <div align="center">
 
-![E-Commerce Preview](https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80&auto=format&fit=crop)
+<img width="1309" height="656" alt="Screenshot 2026-05-29 at 8 03 48 AM" src="https://github.com/user-attachments/assets/0052dae1-b526-49ef-8ac4-a83db031d128" />
+
 *Luxury Watch E-Commerce Product Page — Fully Hand-Coded*
 
 </div>
@@ -556,7 +574,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-![Product Page Layout](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80&auto=format&fit=crop)
+<img width="1309" height="656" alt="Screenshot 2026-05-29 at 8 03 48 AM" src="https://github.com/user-attachments/assets/0052dae1-b526-49ef-8ac4-a83db031d128" />
+
 *Two-column product detail layout — image gallery + info card*
 
 </div>
@@ -592,7 +611,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-![HTML Concepts](https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=900&q=80&auto=format&fit=crop)
+<img width="1482" height="850" alt="image" src="https://github.com/user-attachments/assets/e730ab6d-f5da-4eeb-b6e8-433b534cf627" />
+
 *Core HTML concepts applied throughout both projects*
 
 </div>
@@ -657,7 +677,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-![Learnings](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=900&q=80&auto=format&fit=crop)
+<img width="1408" height="768" alt="Gemini_Generated_Image_q28bojq28bojq28b" src="https://github.com/user-attachments/assets/06b79696-45d0-4189-8044-4c4988ef7b5a" />
+
 *Key skills and concepts gained through building these projects*
 
 </div>
@@ -691,21 +712,21 @@ Connecting labels to inputs is not just good practice — it's what makes forms 
 ---
 
 <br/>
-## Author
+<div align="center">
+  
+**Author**
 
-**Your Name**
-- 🐙 GitHub: [@your_username](https://github.com/your_username)
-- 💼 LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+**Ayesha Abid**
+🐙 GitHub: [@your_username](https://github.com/AyeshaAbid892)
+💼 LinkedIn: [your-profile](https://www.linkedin.com/in/ayesha-abid33/)
 
 ---
 
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ecc71,100:1a252f&height=120&section=footer&text=Built%20with%20Pure%20HTML&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" />
 
 <br/>
 
-**If this helped you, please give it a ⭐ — it means a lot!**
+**💻 Manually coded & documented. If this repository helped you learn, feel free to fork it or leave a star!⭐**
 
 <br/>
 
@@ -713,4 +734,7 @@ Connecting labels to inputs is not just good practice — it's what makes forms 
 ![No Frameworks](https://img.shields.io/badge/Zero-Frameworks-1a252f?style=for-the-badge&logo=html5&logoColor=white)
 ![Manual Code](https://img.shields.io/badge/100%25-Manual%20Code-2ecc71?style=for-the-badge)
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ecc71,100:1a252f&height=120&section=footer&text=Built%20with%20Pure%20HTML&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" />
 </div>
