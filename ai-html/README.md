@@ -94,7 +94,8 @@ html-projects/
 <div align="center">
 
 
-<img width="990" height="612" alt="Screenshot 2026-05-29 at 8 08 54 AM" src="https://github.com/user-attachments/assets/a61679de-f1bb-4a19-b647-b2ef156e6358" />
+<img width="913" height="627" alt="image" src="https://github.com/user-attachments/assets/ed409e44-ae83-4747-a639-eb3b4d93861b" />
+
 
 
 *Survey Form — Built for freeCodeCamp's Responsive Web Design Challenge*
@@ -302,7 +303,8 @@ The form collects:
 <div align="center">
 
 
-<img width="990" height="612" alt="Screenshot 2026-05-29 at 8 08 54 AM" src="https://github.com/user-attachments/assets/e158f3bb-2f08-44d2-b5ad-d835282fd702" />
+<img width="913" height="627" alt="image" src="https://github.com/user-attachments/assets/e00f660d-aa0c-4cde-91b7-775d577b2874" />
+
 
 
 
