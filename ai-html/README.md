@@ -772,6 +772,13 @@ While deprecated in modern HTML, understanding `<font face="">`, `<font size="">
 
 <br/>
 
+## Author
+
+**Ayesha Abid**
+🐙 GitHub: [@your_username](https://github.com/AyeshaAbid892)
+💼 LinkedIn: [your-profile](https://www.linkedin.com/in/ayesha-abid33/)
+
+---
 
 <br/>
 
