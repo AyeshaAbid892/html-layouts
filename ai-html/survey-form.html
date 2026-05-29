@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+</head>
+<body bgcolor="#9ED4C9" topmargin="30" leftmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" cellpadding="20" cellspacing="0" border="0">
+  <tr>
+    <td align="center">
+      <font face="Arial" size="7"><b>Survey Form</b></font>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<table width="960" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" align="center">
+  <tr>
+    <td>
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+        <!-- Subtitle -->
+        <tr>
+          <td colspan="2" align="center" height="60">
+            <font size="3" color="#333333">Let us know how we can improve freeCodeCamp</font>
+          </td>
+        </tr>
+
+        <!-- Name -->
+        <tr valign="middle">
+          <td align="right" width="420" height="48">
+            <font size="3" color="#333333">&nbsp;* Name:&nbsp;&nbsp;</font>
+          </td>
+          <td width="480">
+            <input type="text" placeholder="Enter your name" size="35">
+          </td>
+        </tr>
+
+        <!-- Email -->
+        <tr valign="middle">
+          <td align="right" height="48">
+            <font size="3" color="#333333">&nbsp;* Email:&nbsp;&nbsp;</font>
+          </td>
+          <td>
+            <input type="email" placeholder="Enter your Email" size="35">
+          </td>
+        </tr>
+
+        <!-- Age -->
+        <tr valign="middle">
+          <td align="right" height="48">
+            <font size="3" color="#333333">&nbsp;* Age:&nbsp;&nbsp;</font>
+          </td>
+          <td>
+            <input type="number" placeholder="Age" size="35">
+          </td>
+        </tr>
+
+        <!-- Current Role -->
+        <tr valign="middle">
+          <td align="right" height="54">
+            <font size="3" color="#333333">Which option best describes your current role?&nbsp;&nbsp;</font>
+          </td>
+          <td>
+            <select size="1">
+              <option value="student">Student</option>
+              <option value="fulltime">Full Time Job</option>
+              <option value="parttime">Part Time Job</option>
+              <option value="other">Other</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Recommend -->
+        <tr valign="top">
+          <td align="right">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="right" height="26">
+                  <font size="3" color="#333333">* How likely is that you would recommend&nbsp;&nbsp;</font>
+                </td>
+              </tr>
+              <tr>
+                <td align="right" height="26">
+                  <font size="3" color="#333333">freeCodeCamp to a friend?&nbsp;&nbsp;</font>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top">
+            <table cellpadding="4" cellspacing="0" border="0">
+              <tr>
+                <td height="28"><input type="radio" name="recommend" value="definitely"> <font size="3">Definitely</font></td>
+              </tr>
+              <tr>
+                <td height="28"><input type="radio" name="recommend" value="maybe"> <font size="3">Maybe</font></td>
+              </tr>
+              <tr>
+                <td height="28"><input type="radio" name="recommend" value="notsure"> <font size="3">Not sure</font></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Like Most -->
+        <tr valign="middle">
+          <td align="right" height="54">
+            <font size="3" color="#333333">What do you like most in FCC:&nbsp;&nbsp;</font>
+          </td>
+          <td>
+            <select size="1">
+              <option value="">Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Things to Improve -->
+        <tr valign="top">
+          <td align="right">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="right" height="26">
+                  <font size="3" color="#333333">Things that should be improved in the future&nbsp;&nbsp;</font>
+                </td>
+              </tr>
+              <tr>
+                <td align="right" height="26">
+                  <font size="3" color="#333333">(Check all that apply):&nbsp;&nbsp;</font>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top">
+            <table cellpadding="4" cellspacing="0" border="0">
+              <tr>
+                <td height="28"><input type="checkbox" name="improve" value="frontend"> <font size="3">Front-end Projects</font></td>
+              </tr>
+              <tr>
+                <td height="28"><input type="checkbox" name="improve" value="backend"> <font size="3">Back-end Projects</font></td>
+              </tr>
+              <tr>
+                <td height="28"><input type="checkbox" name="improve" value="datavis"> <font size="3">Data Visualization</font></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td colspan="2" height="40"></td></tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+</body>
+</html>
