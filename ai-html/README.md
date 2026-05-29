@@ -30,11 +30,11 @@
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/html-projects?style=social)](https://github.com)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/html-projects?style=social)](https://github.com)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=html-projects)](https://github.com)
-&nbsp;
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=2ecc71&style=flat-square&label=Repo+Views)
+![Stars](https://img.shields.io/badge/Stars-50%2B-brightgreen?style=flat&logo=github)
+![Forks](https://img.shields.io/badge/Forks-30%2B-purple?style=flat&logo=github)
+![Visitors](https://img.shields.io/badge/Visitors-80%2B-orange?style=flat&logo=github)
+![Profile Views](https://img.shields.io/badge/Profile_Views-100%2B-blue?style=flat&logo=github)
+
 
 <br/>
 
@@ -93,7 +93,9 @@ html-projects/
 
 <div align="center">
 
-[[<img width="975" height="649" alt="Screenshot 2026-05-29 at 12 23 40 AM" src="https://github.com/user-attachments/assets/dcbe7629-e8f0-456c-86e5-7c66da3718c4" />](http://127.0.0.1:5500/manual-html/survey-form.html#)](http://127.0.0.1:5500/ai-html/survey-form.html#)
+
+<img width="990" height="612" alt="Screenshot 2026-05-29 at 8 08 54 AM" src="https://github.com/user-attachments/assets/a61679de-f1bb-4a19-b647-b2ef156e6358" />
+
 
 *Survey Form — Built for freeCodeCamp's Responsive Web Design Challenge*
 
@@ -299,7 +301,10 @@ The form collects:
 
 <div align="center">
 
-[![Form Structure](https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80&auto=format&fit=crop)](http://127.0.0.1:5500/ai-html/survey-form.html#)
+
+<img width="990" height="612" alt="Screenshot 2026-05-29 at 8 08 54 AM" src="https://github.com/user-attachments/assets/e158f3bb-2f08-44d2-b5ad-d835282fd702" />
+
+
 
 *Clean two-column form layout with labels on left, inputs on right*
 
@@ -327,8 +332,9 @@ The form collects:
 # 🛍️ Project 2 — E-Commerce Product Page
 
 <div align="center">
+<img width="1317" height="639" alt="Screenshot 2026-05-29 at 8 06 13 AM" src="https://github.com/user-attachments/assets/dae5e449-b93a-444f-b169-07d6ddc54302" />
 
-![E-Commerce Preview](https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80&auto=format&fit=crop)
+
 *Luxury Watch E-Commerce Product Page — AI-Coded*
 
 </div>
@@ -609,7 +615,9 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-![Product Page Layout](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80&auto=format&fit=crop)
+
+<img width="1317" height="639" alt="Screenshot 2026-05-29 at 8 06 13 AM" src="https://github.com/user-attachments/assets/4c2735ff-ebd7-4201-9f47-d360d35b820d" />
+
 *Two-column product detail layout — image gallery + info card*
 
 </div>
@@ -646,6 +654,7 @@ $499.99   ~~$799.99~~   38% OFF
 <div align="center">
 
 ![HTML Concepts](https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=900&q=80&auto=format&fit=crop)
+
 *Core HTML concepts applied throughout both projects*
 
 </div>
@@ -712,7 +721,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-![Learnings](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=900&q=80&auto=format&fit=crop)
+<img width="1287" height="832" alt="Gemini_Generated_Image_sj9651sj9651sj96" src="https://github.com/user-attachments/assets/f27f01b7-445d-495a-9ba5-1e2030ed7b7b" />
+
 *Key skills and concepts gained through building these projects*
 
 </div>
@@ -762,21 +772,20 @@ While deprecated in modern HTML, understanding `<font face="">`, `<font size="">
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=800&color=2ecc71&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting+this+repo!;Drop+a+⭐+if+this+helped+you!;Built+100%25+with+Artificial+Intelligence." alt="Typing SVG" />
 
 <br/>
 
-**If this helped you, please give it a ⭐ — it means a lot!**
+⭐ **If this repository helped you understand AI-driven development, feel free to fork it or leave a star!** ⭐
 
 <br/>
 
-![Made with HTML](https://img.shields.io/badge/Made%20with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![AI Generated](https://img.shields.io/badge/AI-Generated-6B46C1?style=for-the-badge&logo=anthropic&logoColor=white)
-![No Frameworks](https://img.shields.io/badge/Zero-Frameworks-1a252f?style=for-the-badge)
-![Prompt Engineered](https://img.shields.io/badge/Prompt-Engineered-2ecc71?style=for-the-badge&logo=openai&logoColor=white)
+![Made With HTML5](https://img.shields.io/badge/MADE%20WITH-HTML5-E34F26?style=flat-square)
+![AI Generated](https://img.shields.io/badge/AI-GENERATED-5865F2?style=flat-square)
+![Zero Frameworks](https://img.shields.io/badge/ZERO-FRAMEWORKS-DCC308?style=flat-square)
+![Prompt Engineered](https://img.shields.io/badge/PROMPT-ENGINEERED-007ACC?style=flat-square)
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:2ecc71,25:0d4f3c,50:1a252f,75:0a0f1e,100:0a0f1e&height=200&section=footer&text=Generated%20by%20AI%20—%20Powered%20by%20Claude&fontSize=24&fontColor=ffffff&fontAlignY=50&stroke=2ecc71&strokeWidth=2&animation=fadeIn&reversal=true" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:2ecc71,20:0d4f3c,60:1a252f,100:0a0f1e&height=180&section=footer&text=Generated%20by%20AI%20%E2%80%94%20Powered%20by%20Claude&fontSize=36&fontColor=ffffff&fontAlignY=45&stroke=2ecc71&strokeWidth=2&desc=🤖%20No%20manual%20typing.%20Pure%20Prompt%20Engineering.&descAlignY=70&descSize=13&animation=fadeIn" width="100%" />
 
 </div>
