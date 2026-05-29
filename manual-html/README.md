@@ -611,7 +611,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-<img width="1482" height="850" alt="image" src="https://github.com/user-attachments/assets/e730ab6d-f5da-4eeb-b6e8-433b534cf627" />
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/94859174-5bbe-455d-93bd-9bd502a5fe51" />
+
 
 *Core HTML concepts applied throughout both projects*
 
