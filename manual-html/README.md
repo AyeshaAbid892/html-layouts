@@ -79,7 +79,8 @@ html-projects/
 
 <div align="center">
 
-<img width="1012" height="654" alt="Screenshot 2026-05-29 at 9 14 07 AM" src="https://github.com/user-attachments/assets/8eafe666-9e97-4068-b09c-149f5f7e124d" />
+<img width="948" height="548" alt="image" src="https://github.com/user-attachments/assets/82927ae6-9510-489f-8e41-c2c85cdf7141" />
+
 
 
 *Survey Form — Built for freeCodeCamp's Responsive Web Design Challenge*
@@ -285,7 +286,8 @@ The form collects:
 
 <div align="center">
 
-<img width="1012" height="654" alt="Screenshot 2026-05-29 at 9 14 07 AM" src="https://github.com/user-attachments/assets/4eb2136b-f4c2-4e74-b2e9-624524b065c8" />
+<img width="948" height="548" alt="image" src="https://github.com/user-attachments/assets/7cba33a2-e0c3-4c4a-9d32-8940b2ae11d2" />
+
 
 
 *Clean two-column form layout with labels on left, inputs on right*
@@ -315,7 +317,8 @@ The form collects:
 
 <div align="center">
 
-<img width="1309" height="656" alt="Screenshot 2026-05-29 at 8 03 48 AM" src="https://github.com/user-attachments/assets/0052dae1-b526-49ef-8ac4-a83db031d128" />
+<img width="1282" height="650" alt="image" src="https://github.com/user-attachments/assets/3fdd76c4-1fd9-4a30-a1c0-8736b4bb0981" />
+
 
 *Luxury Watch E-Commerce Product Page — Fully Hand-Coded*
 
@@ -574,7 +577,8 @@ $499.99   ~~$799.99~~   38% OFF
 
 <div align="center">
 
-<img width="1309" height="656" alt="Screenshot 2026-05-29 at 8 03 48 AM" src="https://github.com/user-attachments/assets/0052dae1-b526-49ef-8ac4-a83db031d128" />
+<img width="1282" height="650" alt="image" src="https://github.com/user-attachments/assets/b7674b48-f4ea-4278-9d58-512ebe2ae961" />
+
 
 *Two-column product detail layout — image gallery + info card*
 
