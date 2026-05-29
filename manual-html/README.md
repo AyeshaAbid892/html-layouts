@@ -293,6 +293,7 @@ The form collects:
 
 </div>
 
+👉 **YouTube Video Link:** https://youtu.be/f1LoQV0xseU
 ```
 ┌────────────────────────────────────────────────────────────┐
 │               Survey Form                                  │
@@ -582,6 +583,8 @@ $499.99   ~~$799.99~~   38% OFF
 *Two-column product detail layout — image gallery + info card*
 
 </div>
+
+👉 **YouTube Video Link:** https://youtu.be/HmIhggCe0bI
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
